@@ -160,13 +160,13 @@ const config: Config = {
 
   // Add sitemap
   plugins: [
-    [
-      "@docusaurus/plugin-sitemap",
-      {
-        changefreq: "weekly",
-        priority: 0.5,
-      },
-    ],
+    // [
+    //   "@docusaurus/plugin-sitemap",
+    //   {
+    //     changefreq: "weekly",
+    //     priority: 0.5,
+    //   },
+    // ],
   ],
 };
 

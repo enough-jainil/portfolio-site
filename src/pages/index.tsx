@@ -17,6 +17,7 @@ import {
   FaDatabase,
   FaFigma,
   FaDocker,
+  FaCode,
 } from "react-icons/fa";
 import { SiTailwindcss } from "react-icons/si";
 
@@ -95,14 +96,14 @@ function SummarySection() {
         Career Objective
       </h2>
       <p className="text-base">
-        Versatile IT professional with a strong foundation in both web
-        development and infrastructure management. I am seeking a dynamic role
-        that allows me to leverage my expertise in modern web technologies,
-        including HTML, CSS, JavaScript, and frameworks like React and Angular,
-        alongside my skills in Proxmox virtualization, Nginx server management,
-        and self-hosting solutions. Dedicated to creating robust, scalable
-        applications and systems that enhance user experiences and drive
-        technological innovation within an organization.
+        Aspiring Web Developer with a strong foundation in frontend and backend
+        technologies, including React, Next.js, Node.js, and TailwindCSS.
+        Experienced in building scalable, user-friendly web applications such as
+        MemoryView AI Resources Hub and Traceback Movie Review Platform.
+        Passionate about leveraging modern frameworks and tools to create
+        efficient, high-performance solutions. Seeking opportunities to
+        contribute to innovative projects, enhance my skills, and grow as a
+        developer in a collaborative environment.
       </p>
     </section>
   );
@@ -111,14 +112,14 @@ function SummarySection() {
 function SkillsSection() {
   const skills: Skill[] = [
     {
-      name: "Programming & Scripting Languages",
-      description: "HTML, CSS, JavaScript, Python, C",
+      name: "Frontend Frameworks",
+      description: "HTML, CSS, React.js, Angular",
       icon: <FaHtml5 />,
     },
     {
-      name: "Frontend Frameworks",
-      description: "React.js, Angular",
-      icon: <FaReact />,
+      name: "Programming & Scripting",
+      description: "JavaScript, Python, C",
+      icon: <FaCode />,
     },
     {
       name: "CSS Framework",
@@ -142,7 +143,7 @@ function SkillsSection() {
     },
     {
       name: "DevOps & Virtualization",
-      description: "Docker, Proxmox VE, Nginx Server Configuration",
+      description: "Docker, Proxmox (VE), Nginx Server Configuration",
       icon: <FaDocker />,
     },
     {

@@ -132,6 +132,44 @@ const config: Config = {
       darkTheme: prismThemes.dracula,
     },
   } satisfies Preset.ThemeConfig,
+
+  // Add metadata
+  metadata: [
+    {
+      name: "keywords",
+      content:
+        "web development, IT, React, Node.js, JavaScript, TypeScript, portfolio",
+    },
+    {
+      name: "description",
+      content:
+        "Jainil Prajapati - IT Student and Full Stack Web Developer specializing in React, Node.js, and modern web technologies",
+    },
+    { name: "author", content: "Jainil Prajapati" },
+    { name: "og:type", content: "website" },
+    {
+      name: "og:title",
+      content: "Jainil Prajapati - IT Student & Web Developer",
+    },
+    {
+      name: "og:description",
+      content:
+        "Portfolio and blog of Jainil Prajapati, showcasing web development projects and technical expertise",
+    },
+    { name: "twitter:card", content: "summary_large_image" },
+    { name: "twitter:creator", content: "@enough_jainil" },
+  ],
+
+  // Add sitemap
+  plugins: [
+    [
+      "@docusaurus/plugin-sitemap",
+      {
+        changefreq: "weekly",
+        priority: 0.5,
+      },
+    ],
+  ],
 };
 
 export default config;

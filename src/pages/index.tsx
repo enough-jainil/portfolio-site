@@ -245,6 +245,7 @@ function ProjectsSection() {
           >
             {project.image && (
               <img
+                loading="lazy"
                 src={project.image}
                 alt={project.name}
                 className="w-full h-auto rounded-t-lg mb-4 border-2 border-primary object-contain "
@@ -319,11 +320,35 @@ function SocialSection() {
 
 export default function Home() {
   const { siteConfig } = useDocusaurusContext();
+
+  // Add JSON-LD structured data
+  const structuredData = {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    name: "Jainil Prajapati",
+    url: "https://eknerd.com",
+    image: "img/IMG_2825_Original-2.webp",
+    sameAs: [
+      "https://github.com/enough-jainil",
+      "https://www.linkedin.com/in/enough-jainil/",
+      "https://x.com/enough_jainil",
+      "https://www.instagram.com/enough.jainil/",
+    ],
+    jobTitle: "Web Developer",
+    worksFor: {
+      "@type": "Organization",
+      name: "Self-Employed",
+    },
+  };
+
   return (
     <Layout
       title={`Welcome to ${siteConfig.title}`}
-      description="Jainil Prajapati - IT Student and Web Developer"
+      description="Jainil Prajapati - IT Student and Web Developer specializing in modern web technologies, full-stack development, and cloud solutions."
     >
+      <script type="application/ld+json">
+        {JSON.stringify(structuredData)}
+      </script>
       <HomepageHeader />
       <main className="max-w-7xl mx-auto p-4">
         <ProfileSection />

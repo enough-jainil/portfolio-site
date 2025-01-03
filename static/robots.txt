@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Sitemap: https://eknerd.com/sitemap.xml
+
+# Prevent indexing of specific paths
+Disallow: /search 

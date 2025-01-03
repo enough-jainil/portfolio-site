@@ -2,8 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
+
 :root {
-  --ifm-font-family-base: "Inter", sans-serif;
+  --ifm-font-family-base: "Josefin Sans", sans-serif;
   --ifm-color-primary: #0891b2;
   --ifm-color-primary-dark: #0782a0;
   --ifm-color-primary-darker: #077a97;

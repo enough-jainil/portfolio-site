@@ -45,6 +45,7 @@ function HomepageHeader() {
     <header className="py-8 px-4 md:py-16 md:px-8 text-center relative overflow-hidden bg-primary text-white">
       <div className="container mx-auto">
         <img
+          loading="lazy"
           src="img/IMG_2825_Original-2.webp"
           alt="Jainil Prajapati"
           className="w-[150px] h-[150px] md:w-[200px] md:h-[200px] rounded-full mx-auto mb-4 border-4 border-white"

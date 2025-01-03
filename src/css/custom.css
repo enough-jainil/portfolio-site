@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --ifm-font-family-base: "Inter", sans-serif;
+  --ifm-color-primary: #0891b2;
+  --ifm-color-primary-dark: #0782a0;
+  --ifm-color-primary-darker: #077a97;
+  --ifm-color-primary-darkest: #06647d;
+  --ifm-color-primary-light: #09a0c4;
+  --ifm-color-primary-lighter: #09a8cd;
+  --ifm-color-primary-lightest: #0abee7;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+[data-theme="dark"] {
+  --ifm-color-primary: #22d3ee;
+  --ifm-color-primary-dark: #11cbe8;
+  --ifm-color-primary-darker: #10c0db;
+  --ifm-color-primary-darkest: #0d9eb4;
+  --ifm-color-primary-light: #3bd7f0;
+  --ifm-color-primary-lighter: #48daf1;
+  --ifm-color-primary-lightest: #70e2f4;
+  --ifm-background-color: #1e293b;
+  --ifm-card-background-color: #334155;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 60px;
+}

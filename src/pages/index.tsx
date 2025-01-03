@@ -199,6 +199,7 @@ function ProjectsSection() {
     },
     {
       name: "Bhoogool🌍 A Search Engine",
+      url: "https://bhoogool.netlify.app/",
       summary:
         "Developed a search engine using React with routes, context, and hooks, integrating Tailwind CSS for responsive design. Implemented API calls through Rapid API to fetch and display search results dynamically.",
       image: "/img/bhoogool.webp",

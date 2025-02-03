@@ -56,7 +56,7 @@ function HomepageHeader() {
         <div className="mt-8">
           <a
             className="inline-flex items-center gap-2 px-6 py-3 text-lg bg-white text-primary rounded-lg hover:bg-gray-100  hover:no-underline transition-all duration-300 "
-            href="/Jainil-Prajapati.pdf"
+            href="/Jainil-resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
           >

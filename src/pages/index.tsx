@@ -12,7 +12,6 @@ import {
   FaFacebook,
   FaDownload,
   FaHtml5,
-  FaReact,
   FaNodeJs,
   FaDatabase,
   FaFigma,
@@ -76,7 +75,7 @@ function ProfileSection() {
         <div className="bg-card-background p-4 rounded-lg shadow-sm shadow-primary flex items-center transition-all duration-300 ">
           <FaEnvelope className="mr-2 text-primary" />
           <a href="mailto:hello@eknerd.com" className="hover:no-underline">
-            hello@eknerd.com
+            contact@hellojainil.com
           </a>
         </div>
 

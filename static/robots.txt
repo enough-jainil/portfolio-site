@@ -1,6 +1,6 @@
 User-agent: *
 Allow: /
-Sitemap: https://eknerd.com/sitemap.xml
+Sitemap: https://hellojainil.com/sitemap.xml
 
 # Prevent indexing of specific paths
 Disallow: /search 

@@ -74,7 +74,10 @@ function ProfileSection() {
       <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
         <div className="bg-card-background p-4 rounded-lg shadow-sm shadow-primary flex items-center transition-all duration-300 ">
           <FaEnvelope className="mr-2 text-primary" />
-          <a href="mailto:hello@eknerd.com" className="hover:no-underline">
+          <a
+            href="mailto:contact@hellojainil.com"
+            className="hover:no-underline"
+          >
             contact@hellojainil.com
           </a>
         </div>
@@ -327,7 +330,7 @@ export default function Home() {
     "@context": "https://schema.org",
     "@type": "Person",
     name: "Jainil Prajapati",
-    url: "https://eknerd.com",
+    url: "https://hellojainil.com",
     image: "img/IMG_2825_Original-2.webp",
     sameAs: [
       "https://github.com/enough-jainil",
